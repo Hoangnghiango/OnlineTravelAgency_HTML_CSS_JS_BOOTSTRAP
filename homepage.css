@@ -1,0 +1,11 @@
+.bar_search,.item_search{
+    display: inline-flex;
+    justify-content:stretch;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgray;
+
+}
+.nav_css{
+    text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+}

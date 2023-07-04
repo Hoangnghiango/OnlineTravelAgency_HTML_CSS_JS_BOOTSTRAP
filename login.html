@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTA Booking Design by Gau Gau</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="icon" type="image/x-icon" href="/img/booking_logo.jpeg">
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 bg-light" style="padding-left:2rem; display: flex;">
+                <!-- logo -->
+                <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+                    <a class="navbar-brand " href="login.html">
+                        <img src="img/avatar.png" alt="Logo" style="width:50px;" class="rounded-circle shadow-4-strong">
+                    </a>
+                    <a class="nav-link" href="login.html">
+                        <img src="img/booking_logo.jpeg" alt="Logo" style="width:125%;"
+                            class="rounded-pill shadow-4-strong">
+                    </a>
+                </nav>
+
+            </div>
+            <div class="col-2 bg-light"></div>
+            <div class="col-4 bg-light" style="text-align: center;padding:20px 0px 10px 0px;">
+                <!-- nothing is here -->
+                <div class="spinner-border text-muted"></div>
+                <div class="spinner-border text-primary"></div>
+                <div class="spinner-border text-success"></div>
+                <div class="spinner-border text-info"></div>
+                <div class="spinner-border text-warning"></div>
+                <div class="spinner-border text-danger"></div>
+                <div class="spinner-border text-secondary"></div>
+                <div class="spinner-border text-dark"></div>
+                <div class="spinner-border text-light"></div>
+
+            </div>
+
+            <div class="col-2 bg-light" style="padding-right: 30px;">
+                <!-- searching -->
+                <form class="form-inline" action="/action_page.html">
+                    <div class="input-group" style="padding: 15px 0px 10px 0px;">
+                        <input type="text" class="form-control"
+                            style="border-top-left-radius: 30px;border-bottom-left-radius: 30px;"
+                            placeholder="Search....">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button"
+                                style="border-radius: 0px 30px 30px 0px;">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-2 bg-light">
+                <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+                    <a class="nav navbar-brand " href="#">
+                        <button class="btn btn-primary" style=" text-transform: uppercase;
+                        background: linear-gradient(to right, #a8d030 0%, #e83e05 100%);">Register</button>
+                    </a>
+                    <a class=" nav navbar-brand" href="#">
+                        <button class="btn btn-primary" style=" text-transform: uppercase;
+                        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);"> Login </button>
+
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <!-- search bar -->
+            <div class="col-1"></div>
+            <div class="col" style="border: 5px solid;
+                                    border-image-slice: 1;
+                                    border-image-source: linear-gradient(to right bottom, #6a5af9, #f62682);
+                                    border-radius:5px;
+                                    display: flex;">
+                <div class="col-3 bar_search">
+                    <div class="col item_search">
+                        <img src="img/icons8-canopy-50.png" alt="" style="width:2rem;">
+                        <input type="text" name="" id=""
+                            style="font-size: large; font-weight: bold; color: black; border: none; padding-left: 30px;"
+                            placeholder="Nha Trang">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="col item_search">
+                        <div class="col">
+                            <img src="img/icons8-canopy-50.png" alt="" style="width:2rem;">
+                        </div>
+                        <div class="col" style="padding-left: 30px;">
+                            <input style="font-size: large;font-weight: bold; border: none;" type="date" name="date">
+
+                        </div>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div class="col item_search">
+                        <div class="col">
+                            <img src="img/icons8-canopy-50.png" alt="" style="width:2rem;">
+                        </div>
+                        <div class="col" style="padding-left: 30px;">
+                            <input style="font-size: large;font-weight: bold; border: none;" type="date" name="date">
+
+                        </div>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <button class="btn btn-dark" style="float: right;margin-right: 0;">Find Now</button>
+                </div>
+            </div>
+            <div class="col-1 "></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 bg-light">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a href="https://bootsnipp.com/snippets/7nX2W" class="nav-link active" aria-current="page"
+                            style=" text-transform: uppercase;
+                        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#home"></use>
+                            </svg>
+                            <b>Home</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link link-dark" style=" text-transform: uppercase;
+                        background: linear-gradient(to right, #daed10 0%, #d8d3de 100%);">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#speedometer2"></use>
+                            </svg>
+                            Các bộ lọc phổ biến
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link link-dark" style=" text-transform: uppercase;
+                        background: linear-gradient(to right, #f41b1b 0%, #b9b3c1 100%);">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#table"></use>
+                            </svg>
+                            Du lịch bền vững
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link link-dark" style=" text-transform: uppercase;
+                        background: linear-gradient(to right, #dc649e 0%, #ba96e5 100%);">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#grid"></use>
+                            </svg>
+                            Xếp hạng chỗ nghỉ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link link-dark" style=" text-transform: uppercase;
+                        background: linear-gradient(to right, #b7b0b5 0%, #ea0ab6 100%);">
+                            <svg class="bi me-2" width="16" height="16">
+                                <use xlink:href="#people-circle"></use>
+                            </svg>
+                            Loại chỗ ở
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-2 bg-dark">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-light">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-dark">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-light">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 "></div>
+        </div>
+        <div class="row">
+            <div class="col-2 bg-light"></div>
+            <div class="col-2 bg-dark">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-light">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-dark">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-light">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 "></div>
+        </div>
+        <div class="row">
+            <div class="col-2 bg-light"></div>
+            <div class="col-2 bg-dark">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-light">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-dark">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 bg-light">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="img/avatar.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text ">Some example text.</p>
+                        <a href="#" class="btn btn-dark w-100">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 "></div>
+        </div>
+    </div>
+    <i class="fas fa-search"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fas fa-wine-bottle"></i>
+    <i class="fa-brands fa-facebook"></i>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
